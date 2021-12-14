@@ -1,5 +1,5 @@
 # splatify
-This function does the following:
+This script does the following:
 1) Generates an initial "blob" shape based on a preset number of interpolated radii, sampled from a normal distribution with mean and st. deviation of m1, s1.
 2) Generates a final "blob" shape based on aforementioned number of interpolated radii, sampled from a normal distribution with mean and st. deviation of m2, s2.
 3) Uses an underdamped sine wave with assigned damping ratio to interpolate between initial and final states with a small overshoot, simulating a "splat".
